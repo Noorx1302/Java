@@ -21,6 +21,8 @@ public class JavascriptAlerts {
         driver.findElement(By.xpath("//button[@onclick='jsConfirm()']")).click();
         driver.switchTo().alert().dismiss();
 
+        // changes
+
 
     }
 }
